@@ -1,33 +1,39 @@
 const categories = {
-    age: 'age', 
+    age: 'age',
     alone: 'alone',
     amazing: 'amazing',
     anger: 'anger',
     art: 'art',
-    attitude: 'attitude'  
-    // cba doing the rest there's quite a few on the website  
+    attitude: 'attitude',
 };
 
-// for asif 
-// write a function that selects a random category and returns its string
-// store it in a variable called category, it'll go in the API call underneath
+function getRandomCategory() {
+    const categoryKeys = Object.keys(categories);
+    const randomIndex = Math.floor(Math.random() * categoryKeys.length);
+    return categories[categoryKeys[randomIndex]];
+}
 
-$.ajax({
-    method: 'GET',
-    url: 'https://api.api-ninjas.com/v1/quotes?category=' + category,
-    headers: { 'X-Api-Key': 'YOUR_API_KEY'},
-    contentType: 'application/json',
-    success: function(result) {
-        console.log(result);
-    },
-    error: function ajaxError(jqXHR) {
-        console.error('Error: ', jqXHR.responseText);
-    }
-});
+function fetchRandomQuote() {
+    const category = getRandomCategory();
 
+    $.ajax({
+        method: 'GET',
+        url: 'https://api.api-ninjas.com/v1/quotes?category=' + category,
+        headers: { 'X-Api-Key': 'qvu1Wcf1tPpCu4YJjGpcSw==S0sNBj6j5JtMvLX4' }, // Replace with your actual API key
+        contentType: 'application/json',
+        success: function (result) {
+            console.log(result);
 
-// document.getElementById("quote").textContent = 
-// document.getElementById("author").textContent = 
+            const quote = result.quote;
+            const author = result.author;
 
-// hoping we can somehow figure out how to separate the result into
-// two separate variables; author and quote 
+            document.getElementById("quote").textContent = quote;
+            document.getElementById("author").textContent = author;
+        },
+        error: function ajaxError(jqXHR) {
+            console.error('Error: ', jqXHR.responseText);
+        }
+    });
+}
+
+fetchRandomQuote();
