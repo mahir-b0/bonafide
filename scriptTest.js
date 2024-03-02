@@ -37,3 +37,16 @@ async function fetchRandomQuote() {
 
 // Call the function to fetch and display a random quote
 fetchRandomQuote();
+  
+function applyTheme(theme) {
+    const body = document.querySelector('body');
+    const dropdownHeader = document.querySelector('.dropdown-header');
+    const dropdownThemes = document.querySelector('.dropdown-themes');
+    const dropdownItems = document.querySelector('.bona-dropdown');
+
+    
+    body.classList.add(theme);
+    dropdownHeader.classList.add(theme);
+    dropdownThemes.classList.add(theme);
+    dropdownItems.classList.add(theme);
+}
