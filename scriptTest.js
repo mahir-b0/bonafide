@@ -1,3 +1,5 @@
+const MAX_QUOTE_LENGTH = 100;
+
 const categories = {
     age: 'age',
     alone: 'alone',
@@ -6,6 +8,10 @@ const categories = {
     art: 'art',
     attitude: 'attitude',
 };
+
+function refreshPage() {
+    location.reload();
+}
 
 function getRandomCategory() {
     const categoryKeys = Object.keys(categories);
@@ -17,15 +23,20 @@ async function fetchRandomQuote() {
     const category = getRandomCategory();
 
     try {
-        const response = await fetch(`https://api.api-ninjas.com/v1/quotes?category=${category}`, {
-            headers: { 'X-Api-Key': 'qvu1Wcf1tPpCu4YJjGpcSw==S0sNBj6j5JtMvLX4' }, // Replace with your actual API key
-        });
+        let quote = "";
+        let author = "";
 
-        const result = await response.json();
+        while (quote.length > MAX_QUOTE_LENGTH || quote.trim() === "") {
+            const response = await fetch(`https://api.api-ninjas.com/v1/quotes?category=${category}`, {
+                headers: { 'X-Api-Key': 'qvu1Wcf1tPpCu4YJjGpcSw==S0sNBj6j5JtMvLX4' }, // Replace with your actual API key
+            });
 
-        // Assuming the API response has a structure like { quote: "...", author: "..." }
-        const quote = result[0].quote;
-        const author = result[0].author;
+            const result = await response.json();
+
+            // Assuming the API response has a structure like { quote: "...", author: "..." }
+            quote = result[0].quote;
+            author = result[0].author;
+        }
 
         // Display the quote and author in the terminal
         document.getElementById("quote").textContent = quote;
