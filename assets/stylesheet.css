@@ -1,0 +1,96 @@
+@font-face {
+    font-family: 'EPSON e^u^e`e:e:A~Cl';
+    src: url('EPSON-KAISHO.eot');
+    src: url('EPSON-KAISHO.eot?#iefix') format('embedded-opentype'),
+        url('EPSON-KAISHO.woff2') format('woff2'),
+        url('EPSON-KAISHO.woff') format('woff'),
+        url('EPSON-KAISHO.svg#EPSON-KAISHO') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'EPSON e:cse`e:e:A~Ca';
+    src: url('EPSON-FUTO-GYOSHO.eot');
+    src: url('EPSON-FUTO-GYOSHO.eot?#iefix') format('embedded-opentype'),
+        url('EPSON-FUTO-GYOSHO.woff2') format('woff2'),
+        url('EPSON-FUTO-GYOSHO.woff') format('woff'),
+        url('EPSON-FUTO-GYOSHO.svg#EPSON-FUTO-GYOSHO') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'EPSON cse`e:e:A~Cl';
+    src: url('EPSON-GYOSHO.eot');
+    src: url('EPSON-GYOSHO.eot?#iefix') format('embedded-opentype'),
+        url('EPSON-GYOSHO.woff2') format('woff2'),
+        url('EPSON-GYOSHO.woff') format('woff'),
+        url('EPSON-GYOSHO.svg#EPSON-GYOSHO') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'EPSON e:a:pE\'SE\'VE\'bE\'Ne:A~Ca';
+    src: url('EPSON-FUTO-KAKUGO.eot');
+    src: url('EPSON-FUTO-KAKUGO.eot?#iefix') format('embedded-opentype'),
+        url('EPSON-FUTO-KAKUGO.woff2') format('woff2'),
+        url('EPSON-FUTO-KAKUGO.woff') format('woff'),
+        url('EPSON-FUTO-KAKUGO.svg#EPSON-FUTO-KAKUGO') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'EPSON a~a^e`e:e:A~Cl';
+    src: url('EPSON-KYOKASHO.eot');
+    src: url('EPSON-KYOKASHO.eot?#iefix') format('embedded-opentype'),
+        url('EPSON-KYOKASHO.woff2') format('woff2'),
+        url('EPSON-KYOKASHO.woff') format('woff'),
+        url('EPSON-KYOKASHO.svg#EPSON-KYOKASHO') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'EPSON a:E\'SE\'VE\'bE\'Ne:A~Cl';
+    src: url('EPSON-MARUGO.eot');
+    src: url('EPSON-MARUGO.eot?#iefix') format('embedded-opentype'),
+        url('EPSON-MARUGO.woff2') format('woff2'),
+        url('EPSON-MARUGO.woff') format('woff'),
+        url('EPSON-MARUGO.svg#EPSON-MARUGO') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'EPSON e:a:E\'SE\'VE\'bE\'Ne:A~Ca';
+    src: url('EPSON-FUTO-MARUGO.eot');
+    src: url('EPSON-FUTO-MARUGO.eot?#iefix') format('embedded-opentype'),
+        url('EPSON-FUTO-MARUGO.woff2') format('woff2'),
+        url('EPSON-FUTO-MARUGO.woff') format('woff'),
+        url('EPSON-FUTO-MARUGO.svg#EPSON-FUTO-MARUGO') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'EPSON e:n~i\'(c)e:A~Ca';
+    src: url('EPSON-FUTO-MINCHO.eot');
+    src: url('EPSON-FUTO-MINCHO.eot?#iefix') format('embedded-opentype'),
+        url('EPSON-FUTO-MINCHO.woff2') format('woff2'),
+        url('EPSON-FUTO-MINCHO.woff') format('woff'),
+        url('EPSON-FUTO-MINCHO.svg#EPSON-FUTO-MINCHO') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

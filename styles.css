@@ -1,0 +1,34 @@
+@font-face {
+    font-family: 'Epson';
+    src: url('assets/EPSON-FUTO-MINCHO.eot');
+    src: url('assets/EPSON-FUTO-MINCHO.woff') format('woff'),
+         url('assets/epminbld.ttf') format('truetype'), 
+         url('assets/EPSON-FUTO-MINCHO.svg#EPSON-FUTO-MINCHO') format('svg'); 
+}
+
+body {
+    margin: 0px;
+}
+
+.content {
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(240,243,245);
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    margin: none;
+}
+
+.grid {
+    display: grid;
+    width: 100%;
+    height: 100%;
+    grid-template-rows: 2fr 100px 2fr;
+}
+
+h1 {
+    font-family: 'Epson';
+    font-size: 100px;
+    letter-spacing: 2px;
+}
