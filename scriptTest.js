@@ -68,4 +68,10 @@ function applyTheme(theme) {
     dropdownHeader.classList.add(theme);
     dropdownThemes.classList.add(theme);
     dropdownItems.classList.add(theme);
+
+    if (theme === 'cyberpunk-theme') {
+        document.getElementById('backgroundAudio').play();
+    } else {
+        document.getElementById('backgroundAudio').pause();
+    }
 }
