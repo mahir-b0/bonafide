@@ -1,12 +1,20 @@
 const MAX_QUOTE_LENGTH = 100;
 
 const categories = {
-    age: 'age',
-    alone: 'alone',
-    amazing: 'amazing',
     anger: 'anger',
-    art: 'art',
     attitude: 'attitude',
+    courage: 'courage',
+    death: 'death',
+    dreams: 'dreams',
+    experience: 'experience',
+    failure: 'failure',
+    forgiveness: 'forgiveness',
+    fear: 'fear',
+    happiness: 'happiness',
+    inspirational: 'inspirational',
+    knowledge: 'knowledge',
+    leadership: 'leadership',
+    success: 'success'
 };
 
 function refreshPage() {
