@@ -97,6 +97,15 @@ ul li a {
     font-size: 30px;
 }
 
+.dropdown-header {
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.dropdown-header:hover {
+    color: #808080;
+}
+
 .fide-text {
     cursor: pointer;
     transition: color 0.3s ease;
@@ -126,11 +135,26 @@ ul li:hover ul.dropdown-themes {
     background-color: black;
 }
 
+.deepblue-theme {
+    color: #4779c4;
+    background-color: #2c456b;
+}
+
+.cyberpunk-theme {
+    color: #00ffec;
+    background-color: #fd00f2;	
+}
+
+.matrix-theme {
+    color: #009a22;
+    background-color: black;
+}
+
 @keyframes fade-in {
     0%{ opacity: 0;}
     100%{ opacity: 1;}
 }
 
 .fade-in {
-    animation: fade-in 6s;
+    animation: fade-in 3s;
 }
