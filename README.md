@@ -1,4 +1,7 @@
+
 # bona/fide
+
+https://github.com/mahir-b0/bonafide/assets/120801710/8fcba9f7-6e9c-456c-8803-38de6a6e2249
 
 bona/fide is a simple yet impactful website created for the UNIHACK hackathon in 2024. It leverages an API to generate random famous quotes and displays them on the screen along with the author of each quote. The website also features interactive functionality, allowing users to customise color themes and refresh the page to generate a new quote.
 
@@ -18,4 +21,8 @@ To use bona/fide, simply visit the website at https://mahir-b0.github.io/bonafid
 - CSS
 - JavaScript
 - Third-party API (for fetching quotes)
+
+## Other information
+
+Please visit our post on devpost at https://devpost.com/software/bona-fide to learn more about how this project came to life. 
 
