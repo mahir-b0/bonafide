@@ -26,3 +26,4 @@ To use bona/fide, simply visit the website at https://mahir-b0.github.io/bonafid
 
 Please visit our post on devpost at https://devpost.com/software/bona-fide to learn more about how this project came to life. 
 
+Note: this website is currently only optimised to be used on **desktops**.
